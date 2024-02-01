@@ -32,7 +32,7 @@ const validateGuess = (guess) => {
     } else if(guess < 1){
         alert('Please Enter a Number greater than or equal to 1!');
     } else if(guess > 100){
-        alert('Please Enter a Number greater than or equal to 100!');
+        alert('Please Enter a Number less than or equal to 100!');
     } else {
         if(guessNum >= 10) {
             score--;
